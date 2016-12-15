@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50BEF291E025F2500E40837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D50BEF281E025F2500E40837 /* main.m */; };
+		D50BEF2C1E025F2500E40837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D50BEF2B1E025F2500E40837 /* AppDelegate.m */; };
+		D50BEF2F1E025F2500E40837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D50BEF2E1E025F2500E40837 /* ViewController.m */; };
+		D50BEF321E025F2500E40837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BEF301E025F2500E40837 /* Main.storyboard */; };
+		D50BEF341E025F2500E40837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50BEF331E025F2500E40837 /* Assets.xcassets */; };
+		D50BEF371E025F2500E40837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50BEF351E025F2500E40837 /* LaunchScreen.storyboard */; };
+		D50BEF421E025F2500E40837 /* LikeButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50BEF411E025F2500E40837 /* LikeButtonTests.m */; };
+		D50BEF4D1E025F2500E40837 /* LikeButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D50BEF4C1E025F2500E40837 /* LikeButtonUITests.m */; };
+		D50BEF5E1E025F3F00E40837 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = D50BEF5A1E025F3F00E40837 /* like.png */; };
+		D50BEF5F1E025F3F00E40837 /* LikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D50BEF5C1E025F3F00E40837 /* LikeButton.m */; };
+		D50BEF601E025F3F00E40837 /* sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = D50BEF5D1E025F3F00E40837 /* sparkle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D50BEF3E1E025F2500E40837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50BEF1C1E025F2500E40837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50BEF231E025F2500E40837;
+			remoteInfo = LikeButton;
+		};
+		D50BEF491E025F2500E40837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D50BEF1C1E025F2500E40837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D50BEF231E025F2500E40837;
+			remoteInfo = LikeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D50BEF241E025F2500E40837 /* LikeButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50BEF281E025F2500E40837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D50BEF2A1E025F2500E40837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D50BEF2B1E025F2500E40837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D50BEF2D1E025F2500E40837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D50BEF2E1E025F2500E40837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D50BEF311E025F2500E40837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50BEF331E025F2500E40837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50BEF361E025F2500E40837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50BEF381E025F2500E40837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50BEF3D1E025F2500E40837 /* LikeButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50BEF411E025F2500E40837 /* LikeButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeButtonTests.m; sourceTree = "<group>"; };
+		D50BEF431E025F2500E40837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50BEF481E025F2500E40837 /* LikeButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50BEF4C1E025F2500E40837 /* LikeButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LikeButtonUITests.m; sourceTree = "<group>"; };
+		D50BEF4E1E025F2500E40837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50BEF5A1E025F3F00E40837 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		D50BEF5B1E025F3F00E40837 /* LikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeButton.h; sourceTree = "<group>"; };
+		D50BEF5C1E025F3F00E40837 /* LikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeButton.m; sourceTree = "<group>"; };
+		D50BEF5D1E025F3F00E40837 /* sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D50BEF211E025F2500E40837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50BEF3A1E025F2500E40837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50BEF451E025F2500E40837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50BEF1B1E025F2500E40837 = {
+			isa = PBXGroup;
+			children = (
+				D50BEF261E025F2500E40837 /* LikeButton */,
+				D50BEF401E025F2500E40837 /* LikeButtonTests */,
+				D50BEF4B1E025F2500E40837 /* LikeButtonUITests */,
+				D50BEF251E025F2500E40837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D50BEF251E025F2500E40837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50BEF241E025F2500E40837 /* LikeButton.app */,
+				D50BEF3D1E025F2500E40837 /* LikeButtonTests.xctest */,
+				D50BEF481E025F2500E40837 /* LikeButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D50BEF261E025F2500E40837 /* LikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				D50BEF2A1E025F2500E40837 /* AppDelegate.h */,
+				D50BEF2B1E025F2500E40837 /* AppDelegate.m */,
+				D50BEF2D1E025F2500E40837 /* ViewController.h */,
+				D50BEF2E1E025F2500E40837 /* ViewController.m */,
+				D50BEF5B1E025F3F00E40837 /* LikeButton.h */,
+				D50BEF5C1E025F3F00E40837 /* LikeButton.m */,
+				D50BEF5A1E025F3F00E40837 /* like.png */,
+				D50BEF5D1E025F3F00E40837 /* sparkle.png */,
+				D50BEF301E025F2500E40837 /* Main.storyboard */,
+				D50BEF331E025F2500E40837 /* Assets.xcassets */,
+				D50BEF351E025F2500E40837 /* LaunchScreen.storyboard */,
+				D50BEF381E025F2500E40837 /* Info.plist */,
+				D50BEF271E025F2500E40837 /* Supporting Files */,
+			);
+			path = LikeButton;
+			sourceTree = "<group>";
+		};
+		D50BEF271E025F2500E40837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D50BEF281E025F2500E40837 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D50BEF401E025F2500E40837 /* LikeButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				D50BEF411E025F2500E40837 /* LikeButtonTests.m */,
+				D50BEF431E025F2500E40837 /* Info.plist */,
+			);
+			path = LikeButtonTests;
+			sourceTree = "<group>";
+		};
+		D50BEF4B1E025F2500E40837 /* LikeButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D50BEF4C1E025F2500E40837 /* LikeButtonUITests.m */,
+				D50BEF4E1E025F2500E40837 /* Info.plist */,
+			);
+			path = LikeButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D50BEF231E025F2500E40837 /* LikeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50BEF511E025F2500E40837 /* Build configuration list for PBXNativeTarget "LikeButton" */;
+			buildPhases = (
+				D50BEF201E025F2500E40837 /* Sources */,
+				D50BEF211E025F2500E40837 /* Frameworks */,
+				D50BEF221E025F2500E40837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeButton;
+			productName = LikeButton;
+			productReference = D50BEF241E025F2500E40837 /* LikeButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D50BEF3C1E025F2500E40837 /* LikeButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50BEF541E025F2500E40837 /* Build configuration list for PBXNativeTarget "LikeButtonTests" */;
+			buildPhases = (
+				D50BEF391E025F2500E40837 /* Sources */,
+				D50BEF3A1E025F2500E40837 /* Frameworks */,
+				D50BEF3B1E025F2500E40837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50BEF3F1E025F2500E40837 /* PBXTargetDependency */,
+			);
+			name = LikeButtonTests;
+			productName = LikeButtonTests;
+			productReference = D50BEF3D1E025F2500E40837 /* LikeButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D50BEF471E025F2500E40837 /* LikeButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50BEF571E025F2500E40837 /* Build configuration list for PBXNativeTarget "LikeButtonUITests" */;
+			buildPhases = (
+				D50BEF441E025F2500E40837 /* Sources */,
+				D50BEF451E025F2500E40837 /* Frameworks */,
+				D50BEF461E025F2500E40837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50BEF4A1E025F2500E40837 /* PBXTargetDependency */,
+			);
+			name = LikeButtonUITests;
+			productName = LikeButtonUITests;
+			productReference = D50BEF481E025F2500E40837 /* LikeButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D50BEF1C1E025F2500E40837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "天利合";
+				TargetAttributes = {
+					D50BEF231E025F2500E40837 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					D50BEF3C1E025F2500E40837 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D50BEF231E025F2500E40837;
+					};
+					D50BEF471E025F2500E40837 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D50BEF231E025F2500E40837;
+					};
+				};
+			};
+			buildConfigurationList = D50BEF1F1E025F2500E40837 /* Build configuration list for PBXProject "LikeButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D50BEF1B1E025F2500E40837;
+			productRefGroup = D50BEF251E025F2500E40837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D50BEF231E025F2500E40837 /* LikeButton */,
+				D50BEF3C1E025F2500E40837 /* LikeButtonTests */,
+				D50BEF471E025F2500E40837 /* LikeButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D50BEF221E025F2500E40837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50BEF5E1E025F3F00E40837 /* like.png in Resources */,
+				D50BEF371E025F2500E40837 /* LaunchScreen.storyboard in Resources */,
+				D50BEF601E025F3F00E40837 /* sparkle.png in Resources */,
+				D50BEF341E025F2500E40837 /* Assets.xcassets in Resources */,
+				D50BEF321E025F2500E40837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50BEF3B1E025F2500E40837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50BEF461E025F2500E40837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D50BEF201E025F2500E40837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50BEF5F1E025F3F00E40837 /* LikeButton.m in Sources */,
+				D50BEF2F1E025F2500E40837 /* ViewController.m in Sources */,
+				D50BEF2C1E025F2500E40837 /* AppDelegate.m in Sources */,
+				D50BEF291E025F2500E40837 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50BEF391E025F2500E40837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50BEF421E025F2500E40837 /* LikeButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50BEF441E025F2500E40837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50BEF4D1E025F2500E40837 /* LikeButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D50BEF3F1E025F2500E40837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50BEF231E025F2500E40837 /* LikeButton */;
+			targetProxy = D50BEF3E1E025F2500E40837 /* PBXContainerItemProxy */;
+		};
+		D50BEF4A1E025F2500E40837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D50BEF231E025F2500E40837 /* LikeButton */;
+			targetProxy = D50BEF491E025F2500E40837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D50BEF301E025F2500E40837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50BEF311E025F2500E40837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50BEF351E025F2500E40837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50BEF361E025F2500E40837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D50BEF4F1E025F2500E40837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D50BEF501E025F2500E40837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D50BEF521E025F2500E40837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LikeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LikeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D50BEF531E025F2500E40837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LikeButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LikeButton";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D50BEF551E025F2500E40837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LikeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LikeButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeButton.app/LikeButton";
+			};
+			name = Debug;
+		};
+		D50BEF561E025F2500E40837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LikeButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LikeButtonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeButton.app/LikeButton";
+			};
+			name = Release;
+		};
+		D50BEF581E025F2500E40837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LikeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LikeButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LikeButton;
+			};
+			name = Debug;
+		};
+		D50BEF591E025F2500E40837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LikeButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LikeButtonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LikeButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D50BEF1F1E025F2500E40837 /* Build configuration list for PBXProject "LikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50BEF4F1E025F2500E40837 /* Debug */,
+				D50BEF501E025F2500E40837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D50BEF511E025F2500E40837 /* Build configuration list for PBXNativeTarget "LikeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50BEF521E025F2500E40837 /* Debug */,
+				D50BEF531E025F2500E40837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D50BEF541E025F2500E40837 /* Build configuration list for PBXNativeTarget "LikeButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50BEF551E025F2500E40837 /* Debug */,
+				D50BEF561E025F2500E40837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D50BEF571E025F2500E40837 /* Build configuration list for PBXNativeTarget "LikeButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D50BEF581E025F2500E40837 /* Debug */,
+				D50BEF591E025F2500E40837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D50BEF1C1E025F2500E40837 /* Project object */;
+}
